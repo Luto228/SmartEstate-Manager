@@ -22,11 +22,12 @@ Python
 # Creating an apartment instance
 p = Apartament('TheBestHouse', 60, 1001)
 
-print(p.addres)  # Output: TheBestHouse
-print(p.area)    # Output: 60
-print(p.price)   # Output: 1001
+print(p.addres)
+print(p.area)
+print(p.price) 
+
 ## ⚠️ Error Handling
-The class raises a ValueError if:
+The class raises a **ValueError** if:
 
 **The price is less than 1000.**
 
@@ -37,11 +38,11 @@ The class raises a ValueError if:
 ## 🚀 Upcoming Updates (Roadmap)
 We are actively developing this module. The following features will be added soon:
 
-Calculated Property price_per_m2:
+1. Calculated Property price_per_m2:
 
 An automatic calculation of the price per square meter based on the current total price and area.
 
-Status Management:
+2. Status Management:
 
 A system to track the status of the property (e.g., Available, Reserved, Sold).
 
