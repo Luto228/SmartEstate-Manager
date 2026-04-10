@@ -38,11 +38,7 @@ The class raises a **ValueError** if:
 ## 🚀 Upcoming Updates (Roadmap)
 We are actively developing this module. The following features will be added soon:
 
-1. Calculated Property price_per_m2:
-
-An automatic calculation of the price per square meter based on the current total price and area.
-
-2. Status Management:
+1. Status Management:
 
 A system to track the status of the property (e.g., Available, Reserved, Sold).
 
