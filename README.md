@@ -27,13 +27,15 @@ print(p.area)
 print(p.price) 
 
 ## ⚠️ Error Handling
-The class raises a **ValueError** if:
+The class raises a **ValueError** in the following cases:
 
-**The price is less than 1000.**
+**Price Validation**: The price is set to less than 1000.
 
-**The area is less than or equal to 0.**
+**Area Validation**: The area is less than or equal to 0.
 
-**The address is shorter than 10 characters or if you attempt to modify it after it has been set.**
+**Address Constraints**: The address is shorter than 10 characters or you attempt to modify it after it has been already set.
+
+**Purchase Logic**: You try to buy an apartment that is already sold or if you have insufficient funds.
 
 ## 🚀 How to Run
 
