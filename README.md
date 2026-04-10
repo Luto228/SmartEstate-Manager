@@ -35,17 +35,6 @@ The class raises a **ValueError** if:
 
 **The address is shorter than 10 characters or if you attempt to modify it after it has been set.**
 
-## 🚀 Upcoming Updates (Roadmap)
-We are actively developing this module. The following features will be added soon:
-
-1. Status Management:
-
-A system to track the status of the property (e.g., Available, Reserved, Sold).
-
-Enhanced Validation:
-
-More flexible permissions regarding data editing.
-
 ## 🚀 How to Run
 
 1. Make sure you have **Python 3.x** installed.
