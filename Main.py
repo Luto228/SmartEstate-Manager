@@ -33,4 +33,10 @@ class Apartament:
             self.CanWrite = False
         else:
             raise ValueError
+    @property
+    def PerMeterPrice(self):
+        PerMeter = round(self.price / self.area, 2)
+        print(f'{PerMeter} $')
+        return PerMeter
 P = Apartament('TheBestHouse', 60, 1001)
+P.PerMeterPrice
